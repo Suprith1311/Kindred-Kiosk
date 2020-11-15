@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Helvetica Light";
+  src: url("../fonts/Helvetica/helveticaneueltstd-lt.otf");
+}
+
+@font-face {
+  font-family: "Helvetica Bold";
+  src: url("../fonts/Helvetica/helveticaneueltstd-bd.otf");
+}
+
+$color-grey: #6c6c6c;
+$color-white: #ffffff;
+$color-green: rgb(0, 169, 31);
+
+$font-title: "Helvetica Bold";
+$font-text: "Helvetica Light";
+
+@mixin style-font-title {
+  font-family: $font-title;
+  color: $color-grey;
+  font-size: 3vh;
+}
